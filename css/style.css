@@ -226,10 +226,10 @@ div {
 }
         #apDiv24 {
 	position: absolute;
-	width: 531px;
+	width: 650px;
 	height: 21px;
 	z-index: 1;
-	left: 220px;
+	left: 200px;
 	top: 142px;
 	color: #006680;
 	border-top-color: #006680;
@@ -325,6 +325,7 @@ li{
 	border-radius: 7px;
 	box-shadow: inset 0px 0px 10px white;
 	margin-top: 7px;
+	position:relative;
 }
 section{
 	width: 713px;
@@ -376,6 +377,7 @@ p{
 .menu:hover{
 	color: #FF6600;
 	text-decoration: none;
+	 display: block;
 	/*text-shadow: 0 0 13px white;*/
 }
 .menu:active{
@@ -388,4 +390,35 @@ p {
 	font-size: 12px;
 	font-weight: normal;
 	color: #333;
+}
+.submenu .sli {
+ 	float: left;
+	list-style-type: none;
+	padding: 13px;
+	background: #003f5e;
+	margin: 3px;
+	border-radius: 7px;
+	box-shadow: inset 0px 0px 10px white;
+	margin-top: 3px;
+	position:relative;
+	width:80px;
+	left:-40px;
+}
+
+nav li li a{
+   float:left;
+   width:80px;
+   display:block;
+}
+nav li .submenu {
+   width: 80px;
+   margin:0;
+   display:none;
+   position:absolute;
+   left:-0px;
+   padding-top:25px;
+
+}
+nav li:hover .submenu {
+   display: block;
 }
