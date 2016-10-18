@@ -300,9 +300,9 @@ h2{
 h3{
 	font-family: Arial, Helvetica, sans-serif;
 	;
-	color: white;
+	color: #1C2123;
 	font-size: 11px;
-	text-align: center;
+	text-align: Left;
 }
 header{
 	width: 1000px;
@@ -442,4 +442,10 @@ nav li .submenu {
 }
 nav li:hover .submenu {
    display: block;
+}
+figure
+{
+	width:250px;
+	height:250px;
+	float:left;
 }
