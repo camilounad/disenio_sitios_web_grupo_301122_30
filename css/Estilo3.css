@@ -30,8 +30,8 @@ margin-left: 50px;
  width: 20%;
 }
 #container input:hover + label {
- background: #ddd; /* Fondo de las pestañas al pasar el cursor por encima */
- color: #666; /* Color del texto de las pestañas al pasar el cursor por encima */
+ background: #4f99bd; /* Fondo de las pestañas al pasar el cursor por encima */
+ color: #FFFFFF; /* Color del texto de las pestañas al pasar el cursor por encima */
 }
 #container input:checked + label {
  background: #003f5e; /* Fondo de las pestañas al presionar */
