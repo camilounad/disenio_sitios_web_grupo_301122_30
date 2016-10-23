@@ -10,6 +10,9 @@ h2 {
  font-size: 20px;
 }
 #container {
+margin-left: 50px;
+}
+#container {
  margin: 0 auto;
  width: 98%; /* Ancho del contenedor */
 }
@@ -18,6 +21,7 @@ h2 {
  visibility: hidden;
 }
 #container label {
+ width: 150px;
  background: #f9f9f9; /* Fondo de las pestañas */
  border-radius: .25em .25em 0 0;
  color: #888; /* Color del texto de las pestañas */
@@ -27,31 +31,21 @@ h2 {
  font-size: 1em; /* Tamaño del texto de las pestañas */
  height: 2.5em;
  line-height: 2.5em;
- margin-right: .25em;
- padding: 0 1.5em;
+ margin-right: -25px;
+ margin-left: 80px;
  text-align: center;
-}
-#container tab-group
-{
-	left: 50px;
-}
-#container input#tab-1{
-	left: 50px;
-}
-#container input#tab-2{
-	left: 50px;
-}#container input#tab-3{
-	left: 50px;
-}#container input#tab-4{
-	left: 50px;
+ padding-left: 5px;
+ padding-right: 5px;
+
+ width: auto;
 }
 #container input:hover + label {
  background: #ddd; /* Fondo de las pestañas al pasar el cursor por encima */
  color: #666; /* Color del texto de las pestañas al pasar el cursor por encima */
 }
 #container input:checked + label {
- background: #f1f1f1; /* Fondo de las pestañas al presionar */
- color: #444; /* Color de las pestañas al presionar */
+ background: #5B5B5B; /* Fondo de las pestañas al presionar */
+ color: #FFF; /* Color de las pestañas al presionar */
  position: relative;
  z-index: 6;
 }
